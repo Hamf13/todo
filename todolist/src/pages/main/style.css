@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  body {
+    background-color: red;
+  }
+  
+    
+h1 {
+    margin-top: 50px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+  }
+
+  .container-main {
+    width: 500px;
+    height: 328px;
+    border-radius: 10px;
+    background-color: red;
+    margin: 30px auto;
+  }
+
+  .container-main  p{
+      text-align: center;
+      font-size: 24px;
+      color: white;
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
+
+  .container-main .first,
+  .container-main .last,
+  .container-main .box1,
+  .container-main .box2,
+  .container-main .box3{
+    background-color: white;
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    color: red;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container-main .first p, .container-main .last p,
+  .container-main .box1 p,.container-main .box2 p,.container-main .box3 p{
+    color: black;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+
+  .container-main .box1 p,.container-main .box2 p{
+    margin-left: -330px;
+  }
+
+  .container-main .box1 .del,.container-main .box2 .del{
+    margin-right: -340px;
+  }
+
+  .container-main .first p{
+    padding-left: 10px;
+  }
+
+  .container-main .first  .ai{
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
+    background-color: red;
+    margin-top: -3px;
+    margin: 5px;
+  }
+.container-main .box1 .circle,
+  .container-main .box1  .del,
+  .container-main .box1  .menu,
+  .container-main .box2 .circle,
+  .container-main .box2  .del,
+  .container-main .box2  .menu,
+  .container-main .box3 .circle,
+  .container-main .last .ceklis{
+    color: red;
+    background-color: black;
+  }
+
+
+  
+  .container-main .box3 p{ 
+    margin-left: -220px;
+  }
+  .container-main .box3 .cancel{
+    background-color: green;
+    border: none;
+    font-size: 18px;
+    padding: 5px;
+    margin-right: -210px;
+    border-radius: 5px;
+  }
+  
+  .container-main .box3 .save{
+    background-color: green;
+    border: none;
+    font-size: 18px;
+    padding: 5px;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+
+  .container-main .last p{
+    margin-right: 48%;
+    text-decoration: line-through;
+  }
+  
